@@ -1,0 +1,25 @@
+.loginBtn {
+    background-color: var(--blue20);
+    color: var(--white);
+    border: 1px solid var(--blue10);
+}
+
+.loginBtn:hover {
+    transition: .3s;
+    background-color: var(--blue10);
+    color: var(--blue30);
+}
+
+.sideText {
+    color: var(--white);
+    font-weight: 400;
+    font-size: 13px;
+    margin-left: 4%;
+}
+
+@media only screen and (max-width: 800px) {
+    .loginBtn {
+        font-size: 17px;
+        margin-top: 7%;
+    }
+}

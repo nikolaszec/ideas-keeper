@@ -1,0 +1,96 @@
+.loginPage {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    color: var(--blue10);
+    align-items: center;
+    justify-content: center;
+    overflow-y: hidden;
+}
+
+.title {
+    margin-bottom: 2%;
+    font-weight: 500;
+    letter-spacing: 4px;
+    font-size: 3.5vw;
+    position: relative;
+}
+
+.subtitle {
+    margin-bottom: 2.5%;
+    font-weight: 400;
+}
+
+.lightImg g {
+    fill: #faa307;
+
+
+}
+
+.lightImg {
+    opacity: 1;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: -24px;
+    right: -30px;
+}
+
+/*ANIMATIONS*/
+.blink-1 {
+    -webkit-animation: blink-1 1.3s 3 both;
+    animation: blink-1 1s 2 both
+}
+
+.tracking-in-expand {
+    animation: tracking-in-expand 1s cubic-bezier(.215, .61, .355, 1.000) .3s both
+}
+
+@-webkit-keyframes blink-1 {
+
+    0%,
+    50%,
+    100% {
+        opacity: 1
+    }
+
+    25%,
+    75% {
+        opacity: .6
+    }
+}
+
+@keyframes blink-1 {
+
+    0%,
+    50%,
+    100% {
+        opacity: 1
+    }
+
+    25%,
+    75% {
+        opacity: .6
+    }
+}
+
+@keyframes tracking-in-expand {
+    0% {
+        letter-spacing: -.5em;
+        opacity: 0
+    }
+
+    40% {
+        opacity: .6
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .title {
+        font-size: 32px;
+    }
+}

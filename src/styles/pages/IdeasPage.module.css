@@ -1,0 +1,21 @@
+.title {
+    color: var(--white);
+    margin-bottom: 2%;
+    font-weight: 300;
+}
+
+.addNewBtn {
+    color: var(--blue20);
+    border: 3px solid var(--blue20);
+    background-color: var(--blue10);
+    padding: 0;
+    font-size: 30px;
+    padding: 1px 10px;
+    border-radius: 50%;
+    font-weight: bolder;
+}
+
+.info {
+    color: var(--blue10);
+    margin-top: 1%;
+}

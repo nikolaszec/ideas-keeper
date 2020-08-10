@@ -1,0 +1,46 @@
+.item {
+    width: 450px;
+    padding: 0 1.5% 0 1%;
+    text-align: left;
+    color: var(--white);
+    background-color: var(--blue20);
+    margin: 1.5% 1%;
+}
+
+.actionsWrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.edit:visited {
+    color: var(--white);
+
+
+}
+
+.edit {
+    font-size: 30px;
+    color: var(--white);
+    transform: rotate(90deg);
+    margin-right: 4%;
+}
+
+.delete {
+    background-color: transparent;
+    color: var(--white);
+    font-weight: bolder;
+    font-size: 19px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 500px) {
+    .item {
+        margin: 5% 2%;
+        width: 300px;
+        padding: 1% 4%;
+    }
+}

@@ -1,0 +1,46 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 1%;
+}
+
+.form>label {
+    color: var(--blue10);
+    margin: 2% 0;
+}
+
+.form>input,
+textarea,
+select {
+    padding: 3%;
+    background-color: var(--white);
+    border: 2px solid var(--blue10);
+    border-radius: 3px;
+    color: var(--blue30);
+    outline-color: var(--blue20);
+}
+
+.form>textarea {
+    resize: none;
+
+}
+
+
+.form>button {
+    color: var(--blue30);
+    margin-top: 3.5%;
+    font-weight: bolder;
+    background-color: var(--blue10);
+    height: 35px;
+}
+
+@media only screen and (max-width: 360px) {
+    .form {
+        margin: 5% 2%;
+        width: 310px;
+        padding: 1% 4%;
+    }
+}

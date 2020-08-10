@@ -1,0 +1,39 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2% 2% 0 2%;
+}
+
+.logoutBtn {
+    margin-left: auto;
+    background-color: transparent;
+    font-size: 15px;
+    color: var(--blue10);
+    border: 1px solid var(--blue20);
+    opacity: .87;
+}
+
+.logoutBtn:hover {
+    transition: .3s;
+    opacity: 1;
+    background-color: var(--white);
+    color: var(--blue30);
+}
+
+.backBtn {
+    font-size: 45px;
+    color: var(--blue10);
+    background: transparent;
+    padding: 0;
+    margin-left: 2%;
+
+
+}
+
+
+@media only screen and (max-width: 500px) {
+    .nav {
+        padding: 5% 2% 0 2%;
+    }
+}

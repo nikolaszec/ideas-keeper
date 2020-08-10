@@ -1,0 +1,11 @@
+.container {
+    word-break: break-word;
+}
+
+.moreTextLink:visited {
+    color: var(--blue10);
+}
+
+.moreTextLink {
+    color: var(--blue10);
+}

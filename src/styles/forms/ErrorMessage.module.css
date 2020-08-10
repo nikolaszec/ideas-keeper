@@ -1,0 +1,8 @@
+.wrapper {
+    min-height: 14px;
+}
+
+.message {
+    font-size: 13px;
+    color: var(--red);
+}
